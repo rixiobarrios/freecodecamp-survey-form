@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automation Opinion Survey Form</title>
+    <title>AI & Automation Opinion Survey Form</title>
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Abel" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form id="survey-form">
         <header>
-        <h1 id="title">Automation Opinion Survey Form</h1>
-        <p id="description">This survey is created to record your feelings and understanding regarding Automation in its current state. Please, answer honestly and truthfully</p></header>
+        <h1 id="title">AI & Automation Opinion Survey Form</h1>
+        <p id="description">The purpose of this survey is to measure your general opinions on artificial intelligence and automation</p></header>
         <div id="form-container">
-            <label for="name" id="name-label" class="labels">Name</label><br>
+            <label for="name" id="name-label" class="labels">Name</label>
             <input type="text" id="name" placeholder="Enter your name" class="input" required><br>
-            <label for="email" id="email-label" class="labels">Email</label><br>
+            <label for="email" id="email-label" class="labels">Email</label>
             <input type="email" id="email" placeholder="Enter your email" class="input" required><br>
-            <label for="age" id="number-label" class="labels">Age (optional)</label><br>
+            <label for="age" id="number-label" class="labels">Age (optional)</label>
             <input type="number" id="number" min="1" max="99" placeholder="Age" class="input" required><br>
-            <label for="device" class="labels">Device Used</label><br>
+            <label for="device" class="labels">Device Used</label>
             <select id="dropdown" name="device" class="input">
                 <option value="computer">Computer</option>
                 <option value="tablet">Tablet</option>
                 <option value="phone">Phone</option>
             </select><br>
             <label for="radio" class="labels">What are your thoughts on Artificial Intelligence?</label><br>
-            <ul class="list" style="list-style: none;">
+            <ul id="thoughts" style="list-style: none;">
                 <li class="radio">
                     <input name="radio-buttons" value="1" type="radio"><label>Get ready for Skynet!</label>
                 </li>
@@ -34,14 +35,14 @@
                     <input name="radio-buttons" value="2" type="radio"><label>Domo arigato Mr. Roboto!</label>
                 </li>
             </ul>
-            <label for="services" class="labels">What future service(s) are you most likely to use? (check all that apply)</label><br>
+            <label for="services" class="labels">What future service(s) are you likely to use? (check all that apply)</label><br>
             <ul id="services" style="list-style: none">
-                <li class="checkbox">
                 <li class="checkbox">
                     <label>
                         <input type="checkbox" id="assistant" value="1">AI assistants such as Alexa or Google Home
                     </label>
                 </li>
+                <li class="checkbox"></li>
                     <label>
                         <input type="checkbox" id="delivery" value="2">Autonomous delivery drone
                     </label>
@@ -77,6 +78,6 @@
         </div>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <footer id="footer"><div id="credit">Made with 💙 by <a href="https://www.rixiobarrios.com" target="_blank">Rixio Barrios</a></footer>
+    <footer id="footer">Built by <a href="https://www.rixiobarrios.com" target="_blank">Rixio Barrios</a> as an assignment for <a href="https://www.freecodecamp.org" target="_blank">freecodecamp.org</a> </footer>
 </body>
 </html>
