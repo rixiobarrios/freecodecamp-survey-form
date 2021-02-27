@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technology Usage Survey Form</title>
+    <title>Automation Opinion Survey Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form id="survey-form">
-        <h1 id="title">Technology Usage Survey Form</h1>
-        <p id="descriptiomn">This survey is created to record your feelings and understanding regarding technology in its current state. Please, answer honestly and truthfully</p>
+        <header>
+        <h1 id="title">Automation Opinion Survey Form</h1>
+        <p id="description">This survey is created to record your feelings and understanding regarding Automation in its current state. Please, answer honestly and truthfully</p></header>
         <div id="form-container">
             <label for="name" id="name-label" class="labels">Name</label><br>
             <input type="text" id="name" placeholder="Enter your name" class="input" required><br>
             <label for="email" id="email-label" class="labels">Email</label><br>
             <input type="email" id="email" placeholder="Enter your email" class="input" required><br>
-            <label for="age" id="age-label" class="labels">Age (optional)</label><br>
-            <input type="number" id="age" min="1" max="100" placeholder="Age" class="input" required><br>
+            <label for="age" id="number-label" class="labels">Age (optional)</label><br>
+            <input type="number" id="number" min="1" max="99" placeholder="Age" class="input" required><br>
             <label for="device" class="labels">Device Used</label><br>
             <select id="dropdown" name="device" class="input">
                 <option value="computer">Computer</option>
@@ -73,6 +75,8 @@
             <textarea name="comment" rows="8" columns="80" class="input" placeholder="Enter your comments"></textarea><br>
             <button id="submit" type="submit">Submit</button>
         </div>
-    </form>   
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <footer id="footer"><div id="credit">Made with 💙 by <a href="https://www.rixiobarrios.com" target="_blank">Rixio Barrios</a></footer>
 </body>
 </html>

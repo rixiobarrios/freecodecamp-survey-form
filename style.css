@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    /* font-family: 'Questrial', sans-serif; */
+    color: darkgray;
+    text-align: center;
+}
+
+h1 {
+    /* font-family: 'Lobster', sans-serif; */
+    color: darkgray;
+    font-size: 4em;
+}
+
+p {
+    /* font-family: Verdana, Tahoma, sans-serif; */
+    font-size: 1.5em;
+}
+
+form {
+    height: auto;
+    width: 46em;
+    background-color: black;
+    margin: auto;
+    padding: 8em;
+    /* text-align: left;
+    line-height: 3em; */
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input,
+textarea {
+    font-size: 1.2em;
+    color: darkgray;
+    width: 20em;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0.5em;
+}
+
+input {
+    border-bottom: 2px solid white;
+}
+
+textarea {
+    border: 2px solid white;
+    margin: auto;
+}
+
+/* .number {
+    width: 6em;
+}
+
+/* age */
+/* #number {
+    width: 3em;
+} */
+
+ul {
+    list-style: none;
+    display: inline;
+    width: 50em;
+}
+
+#dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+#submit {
+    background-color: white;
+    border-radius: 4px;
+    color: #263238;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: auto;
+    border: 0px solid;
+}
+
+footer {
+    color: darkgrey;
+}
